@@ -1,0 +1,22 @@
+{
+  "name": "kaboomjs-typescript-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html -p 3000"
+  },
+  "dependencies": {
+    "kaboom": "^0.5.1",
+    "parcel": "^1.12.3"
+  },
+  "alias": {
+    "kaboom": "./node_modules/kaboom/dist/kaboom.mjs"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
